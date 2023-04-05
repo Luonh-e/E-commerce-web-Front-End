@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Epochal</title>
+</head>
+
+<body>
+    <header>
+        <div class="topheader">
+            <div class="ab-store">
+                <ul>
+                    <li><a href="">HOTLINE : 0366.43.9999 - 0333.54.9999</a></li>
+                </ul>
+                <ul class="ls-top-header">
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Chứng chỉ</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Về chúng tôi</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="midheader">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="" class="logo-img">
+                </a>
+            </div>
+            <div class="search">
+                <div class="search-icon">
+                    
+                </div>
+                <input type="text" placeholder="Search.." name="search">
+            </div>
+            <div class="login">
+                <a href="login.html">
+                    <i class="far fa-user"></i>
+                </a>
+            </div>
+            <div class="my-cart">
+                <a href="cart.html">
+                    <i class="fas fa-shopping-bag"></i>
+                </a>
+            </div>
+        </div>
+        <div class="botheader">
+            <ul>
+                <li><a href="iphone.html">iPhone</a></li>
+                <li><a href="mac.html">Mac</a></li>
+                <li><a href="ipad.html">iPad</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="pod.html">Âm thanh</a></li>
+                <li><a href="oldProduct.html">Máy cũ</a></li>
+                <li><a href="accessory.html">Phụ kiện</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="warrant.html">Bảo hành</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="prod_cart">
+            <table class="table_prod_cart">
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                        <th>Thành tiền</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="datarow">
+                    <tr>
+                        <td class="prod_cart-img">
+                            <img src="img/iPad/ipad-air-5-wifi-startlight-650x650.png">
+                        </td>
+                        <td>Apple Ipad 4 Wifi 16GB</td>
+                        <td class="text-right">2</td>
+                        <td class="text-right">11,800,000.00</td>
+                        <td class="text-right">23,600,000</td>
+                        <td>
+                            <a id="delete_1" data-sp-ma="2" class="btn btn-danger btn-delete-sanpham">
+                                <i class="fa fa-trash" aria-hidden="true"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prod_cart-img">
+                            <img src="img/iPhone/iphone-14-plus-tim-thumb-650x650.png">
+                        </td>
+                        <td>iPhone 14 Pro Max 128GB</td>
+                        <td class="text-right">4</td>
+                        <td class="text-right">2,699,000.00</td>
+                        <td class="text-right">1,0796,000</td>
+                        <td>
+                            <a id="delete_2" data-sp-ma="6" class="btn btn-danger btn-delete-sanpham">
+                                <i class="fa fa-trash" aria-hidden="true"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="prod_cart-img">
+                            <img src="img/iPhone/iphone-11-red-1-1-1-650x650.png">
+                        </td>
+                        <td>Apple iPhone 5 16GB White</td>
+                        <td class="text-right">8</td>
+                        <td class="text-right">1,4990,000.00</td>
+                        <td class="text-right">119,920,000</td>
+                        <td>
+                            <a id="delete_3" data-sp-ma="4" class="btn btn-danger btn-delete-sanpham">
+                                <i class="fa fa-trash" aria-hidden="true"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td></td>
+                    <td><h4>Tổng tiền</h4></td>
+                    <td class="total_price">
+                        <h4>100,000,000.00</h4>
+                    </td>
+                    <td><a href="payment.html">Thanh toán</a></td>
+                    <td></td>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="policy">
+            <ul class="policy-product">
+                <li class="policy__items">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p class="policy__name">Mẫu mã đa dạng, chính hãng</p>
+                </li>
+                <li class="policy__items">
+                    <i class="fa-solid fa-truck"></i>
+                    <p class="policy__name">Giao hàng toàn quốc</p>
+                </li>
+                <li class="policy__items">
+                    <i class="fa-solid fa-shield-virus"></i>
+                    <p class="policy__name">Bảo hành có cam kết tới 12 tháng</p>
+                </li>
+                <li class="policy__items">
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                    <p class="policy__name">Có thể đổi trả tại mọi cửa hàng</p>
+                </li>
+            </ul>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="list-footer">
+            <li>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="" class="logo-img">
+                    </a>
+                </div>
+            </li>
+            <li>
+                <span>Giới thiệu</span>
+                <p>Cửa hàng bán sản phẩm của Apple cung cấp các sản phẩm công nghệ chất lượng cao của Apple, bao gồm cả
+                    các phụ kiện đi kèm. Chúng tôi cam kết sản phẩm tại cửa hàng đều chính hãng.</p>
+            </li>
+            <li>
+                <span>Liên hệ chúng tôi</span>
+                <p>23a/5 Bình Đáng, P. Bình Hoà, TP.Thuận An, Bình Dương<br>
+                    Phone: <a href="">(094) 456-7890</a><br>
+                    Email: <a href="">epochal@gmail.com</a></p>
+            </li>
+            <li>
+                <span>Kết nối với chúng tôi</span>
+                <ul class="social">
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="copy-right">
+            <p>&copy; 2023 Epochal. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script type="text/javascript" src="script.js"></script>
