@@ -1,3 +1,3 @@
 # E-commerce_web_fe
 Using html css js
-(templete: topzone.vn)
+Based on the TopZone website interface.
